@@ -19,3 +19,10 @@ Petal lenght in cm
 Petal width in cm
 
 He created a linear discriminant model which was used to tell the three species apart.
+
+
+Code:
+
+Import NumPy for scientific computing in python
+Import Pandas for data analysis in python
+Import Seaborn data visualisation library based on matplotlib

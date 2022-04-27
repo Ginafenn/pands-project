@@ -1,6 +1,10 @@
 # Fisher Iris Data Set
 # Author: Regina Fennessy
 
+import numpy as np
+import pandas as pd
+import seaborn as sb
+
 f = open('Fisher Iris Data Set.csv', 'r')
 lines = f.readlines()
 
