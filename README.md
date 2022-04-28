@@ -45,10 +45,15 @@ matplotlib: Is a library for creating static and interactive visualisation in Py
 
 # Reference:
 
-https://www.w3schools.com/python/numpy/numpy_intro.asp
-https://pandas.pydata.org/
-https://seaborn.pydata.org/
-https://matplotlib.org/
-https://en.wikipedia.org/wiki/Iris_flower_data_set
-https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/
+1. What is NumPy. https://www.w3schools.com/python/numpy/numpy_intro.asp
+
+2. What is Pandas. https://pandas.pydata.org/
+
+3. What is Seaborn. https://seaborn.pydata.org/
+
+4. What is matplotlib. https://matplotlib.org/
+
+5. Backround on data set. https://en.wikipedia.org/wiki/Iris_flower_data_set
+
+6. Creating historgrams/boxplots. https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/
 
