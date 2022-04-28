@@ -2,7 +2,7 @@
 # Fisher Iris Data Set
 # Author: Regina Fennessy
 
-
+# Introduction
 The Fisher Data set was first introduced by Ronald Fisher in 1936. Ronald is a british statistician and biologist.It is one of the most used data set
 It is made up of 50 data sets from 3 different species of the Iris flower. 
 This was used to quantify the variations of the three species.
@@ -13,10 +13,10 @@ Iris Virginica
 
 Four types of measurements were used from each flower. 
 
-Sepal lenght in cm
-Sepal width in cm
-Petal lenght in cm
-Petal width in cm
+1. Sepal lenght in cm
+2. Sepal width in cm
+3. Petal lenght in cm
+4. Petal width in cm
 
 He created a linear discriminant model which was used to tell the three species apart.
 
@@ -28,17 +28,22 @@ Pandas: Is an open source library used for data analysis/data science and machin
 Seaborn: Is a data visualisation library based on matplotlib. It provides a high level interface for drawing attractive and informative statistical graphics
 matplotlib: Is a library for creating static and interactive visualisation in Python
 
-Summary of the Data set:
+# Summary of the Data set:
 
 
 
 
 
-Histograms:
+# Histograms:
 
 
 
-Reference:
+
+# Scatterplots:
+
+
+
+# Reference:
 
 https://www.w3schools.com/python/numpy/numpy_intro.asp
 https://pandas.pydata.org/
