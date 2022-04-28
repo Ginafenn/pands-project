@@ -55,3 +55,54 @@ plt.ylabel('Quantity')
 plt.savefig('Petal_Width.png')
 
 
+#Creating a scatter Plot
+# Using a white background/Grid
+# Plots the lenght on x-axis and Width on Y-Axis
+# Plot the variables length/width
+# Adds a legend to show Species
+# Adds a title to the chart 
+sns.set_style("whitegrid") 
+sns.FacetGrid(data, hue="species", height=6) \
+.map(plt.scatter, "sepal_length", "sepal_width" ) \
+.add_legend()  
+plt.title("Scatter Plot Sepal")  
+plt.show()   
+
+#Creating a scatter Plot
+# Using a white background/Grid
+# Plots the lenght on x-axis and Width on Y-Axis
+# Plot the variables length/width
+# Adds a legend to show Species
+# Adds a title to the chart 
+sns.set_style("whitegrid") 
+sns.FacetGrid(data, hue="species", height=6) \
+.map(plt.scatter, "petal_length", "petal_width" ) \
+.add_legend()  
+plt.title("Scatter Plot Petal")  
+plt.show() 
+
+#Creating a scatter Plot
+# Using a white background/Grid
+# Plots the lenght on x-axis and Width on Y-Axis
+# Plot the variables length/width
+# Adds a legend to show Species
+# Adds a title to the chart 
+sns.set_style("whitegrid") 
+sns.FacetGrid(data, hue="species", height=6) \
+.map(plt.scatter, "petal_length", "sepal_length" ) \
+.add_legend()  
+plt.title("Scatter length")  
+plt.show() 
+
+#Creating a scatter Plot
+# Using a white background/Grid
+# Plots the lenght on x-axis and Width on Y-Axis
+# Plot the variables length/width
+# Adds a legend to show Species
+# Adds a title to the chart 
+sns.set_style("whitegrid") 
+sns.FacetGrid(data, hue="species", height=6) \
+.map(plt.scatter, "petal_width", "sepal_width" ) \
+.add_legend()  
+plt.title("Scatter Plot Width")  
+plt.show() 
