@@ -14,15 +14,15 @@ data.head()
 # This is to identify headings of datasets
 Name = ['sepal_length','sepal_width', 'petal_length', 'petal_width', 'species']
 
-#To prove how many columns and rows
+#This helps you ensure that your code takes all the data into consideration by showing you many columns and rows are there.
 print(data.shape)
 data.describe()
 
-#Create a text file that shows a summary of the dataset
-with open("dataset.txt","a") as f:
+#This creates a txt file that contais a summary of the dataset.
+with open("Summary.txt","a") as f:
       print((data.describe()),file = f)
 
-#x = Name["sepal_length"]
+
 
 
 #Create histogram for Sepal Length using black edging/creating a title/and labels for x and y axis

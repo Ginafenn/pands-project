@@ -3,7 +3,10 @@
 # Author: Regina Fennessy
 
 # Introduction
-The Fisher Data set was first introduced by Ronald Fisher in 1936. Ronald is a british statistician and biologist.It is one of the most used data set
+The Fisher Data set was first introduced by Ronald Fisher in 1936. Ronald is a british statistician and biologist.It is one of the most used data sets.
+
+https://miro.medium.com/max/582/1*EBFNxketyXo5QPlFUfD7iw.jpeg
+
 It is made up of 50 data sets from 3 different species of the Iris flower. 
 This was used to quantify the variations of the three species.
 
@@ -56,4 +59,6 @@ matplotlib: Is a library for creating static and interactive visualisation in Py
 5. Backround on data set. https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 6. Creating historgrams/boxplots. https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/
+
+7. Creating scatterplot. https://www.geeksforgeeks.org/plotting-graph-for-iris-dataset-using-seaborn-and-matplotlib/
 
