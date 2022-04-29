@@ -23,15 +23,13 @@ with open("Summary.txt","a") as f:
       print((data.describe()),file = f)
 
 
-
-
 #Create histogram for Sepal Length using black edging/creating a title/and labels for x and y axis
 data.hist(column='sepal_length',edgecolor='black') 
 plt.title('Sepal Length') 
 plt.xlabel('Length (cm)') 
 plt.ylabel('Quantity') 
 plt.show()
-#plt.savefig('Sepal_Length.png')
+#plt.savefig('Histogram Sepal_Length.png')
 
 #Create histogram for Sepal Width using black edging/creating a title/and labels for x and y axis
 data.hist(column='sepal_width',edgecolor='black') 
@@ -39,7 +37,7 @@ plt.title('Sepal Width')
 plt.xlabel('Length (cm)') 
 plt.ylabel('Quantity') 
 plt.show()
-#plt.savefig('Sepal_Width.png')
+#plt.savefig('Histogram Sepal_Width.png')
 
 #Create histogram for Petal Length using black edging/creating a title/and labels for x and y axis
 data.hist(column='petal_length',edgecolor='black') 
@@ -47,7 +45,7 @@ plt.title('Petal Length')
 plt.xlabel('Length (cm)') 
 plt.ylabel('Quantity') 
 plt.show()
-#plt.savefig('Petal_Length.png')
+#plt.savefig('Histogram Petal_Length.png')
 
 #Create histogram for Petal Width using black edging/creating a title/and labels for x and y axis
 data.hist(column='petal_width',edgecolor='black') 
@@ -55,7 +53,7 @@ plt.title('Petal Width')
 plt.xlabel('Length (cm)') 
 plt.ylabel('Quantity') 
 plt.show()
-#plt.savefig('Petal_Width.png')
+#plt.savefig('Histogram Petal_Width.png')
 
 
 #Creating a scatter Plot
@@ -114,6 +112,7 @@ plt.title("Scatter Plot Width")
 plt.show() 
 #plt.savefig('Scatter Plot Width.png') 
 
+#Create a box Plot
 #To create a variable that has more than one value
 box_data = data
 # Displys a white grid on the chart
@@ -124,7 +123,7 @@ sns.boxplot(data = box_data,width=0.4,fliersize=5)
 plt.title("Box plot for all variables") 
 
 #Saves to a png
-#plt.savefig('Box Plot all Variables.png') 
+plt.savefig('Box Plot all Variables.png') 
 
 # Displays chart 
 #plt.show() 
