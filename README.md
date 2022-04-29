@@ -12,14 +12,9 @@ This dataset is one of the most used data sets.
 It is made up of 50 data sets from 3 different species of the Iris flower. 
 This was used to quantify the variations of the three species.
 
-        Iris Setosa                            
+        Iris Setosa                   Iris Vericolour              Iris Virginica                
 ![](2022-04-29-19-01-10.png)
 
-      Iris Vericolour   
-![](2022-04-29-19-01-22.png)   
-
-      Iris Virginica
-![](2022-04-29-19-01-35.png)
 
 Four types of measurements were used from each flower. 
 
@@ -37,18 +32,18 @@ He created a linear discriminant model which was used to tell the three species 
 1. NumPy: Numpy or Numerical Python was created in 2005 by Travis Oliphant. Is a fundamental package for scientific computing with Python. It is used for working in domain of linear alegbra fourier and matrices
 2. Pandas: Is an open source library used for data analysis/data science and machine learning tasks in python. It is built on top of Numpy which provides support for multi -dimensional arrays
 3. Seaborn: Is a data visualisation library based on matplotlib. It provides a high level interface for drawing attractive and informative statistical graphics
-matplotlib: Is a library for creating static and interactive visualisation in Python
+4. Matplotlib: Is a python library for creating static or interactive visualisations
 
 # Summary of the Data set:
 
-. Count is the total quantity of data points in the dataset.
-. Mean shows the average by the 4 different datasets.
-. Std/standard deviation shows how much variation there is in the data set. In the below table the petal lenght has the most deviation between the 4 variables.
-. Min
-. 25%
-. 50%
-. 75%
-. Max
+1. Count: Shows the total quantity of data points in the dataset.
+2. Mean: Shows the average by the 4 different datasets.
+3. Std/standard deviation: Shows how much variation there is in the data set. In the below table the petal lenght has the most deviation between the 4 variables.
+4. Min: Shows the lowest value in the dataset
+5. 25%: Shows the value that 25% of the data collected lie below that value
+6. 50%: Is where half the data lie below the median and half lie above the median
+7. 75%: Shows the value that 75% of the data collected lie above that value
+8. Max: Shows the highest value in the dataset
 
 ![](2022-04-29-19-03-02.png)
 
@@ -89,11 +84,14 @@ The below scatterplot analysis shows the comparison of two data sets Sepal Lengt
 
 The below scatterplot analysis shows the comparison of two data sets Sepal Width and Petal Width and to compare these across the three Iris classes to see if there is any relationship between them. From this visual analysis of data it does not show a strong relationship between the independent variable (petal width) and the dependent variable Sepal Width. There are three independent groups however there is some slight overlap between the versicolor and virginica classes of plant.
 
-![](2022-04-29-19-05-49.png)
+![](2022-04-29-19-28-19.png)
 
 # Boxplot:
 
+This box plot also known as a box and whisker plot displays the summary of the four data sets of the Iris Classes. These box plots show the whiskers on the outside from Min to Max with the line in the centre as the median and the box from the first quartile to the third quartile. This visualization of data shows that the data for petal length has a larger range of measurements for the three Iris plants and the sepal width has a smaller range of measurements which tells us that there is little difference between the Sepal widths on the three Iris plants. The Sepal width is also displaying some outliers outside of the boxplot analysis which highlights that these values are distant from the rest of the data.
+
 ![](2022-04-29-19-19-43.png)
+
 
 # Reference:
 
