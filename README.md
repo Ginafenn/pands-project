@@ -3,9 +3,11 @@
 # Author: Regina Fennessy
 
 # Introduction
-The Fisher Data set was first introduced by Ronald Fisher in 1936. Ronald is a british statistician and biologist.It is one of the most used data sets.
+The Fisher Data set was first introduced by Ronald Fisher in 1936. Ronald is a british statistician and biologist.
 
-https://miro.medium.com/max/582/1*EBFNxketyXo5QPlFUfD7iw.jpeg
+![](2022-04-29-11-57-28.png)
+
+This dataset is one of the most used data sets.
 
 It is made up of 50 data sets from 3 different species of the Iris flower. 
 This was used to quantify the variations of the three species.
