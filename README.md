@@ -12,7 +12,7 @@ This dataset is one of the most used data sets.
 It is made up of 50 data sets from 3 different species of the Iris flower. 
 This was used to quantify the variations of the three species.
 
-        Iris Setosa                   Iris Vericolour              Iris Virginica                
+                  
 ![](2022-04-29-19-01-10.png)
 
 
