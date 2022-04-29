@@ -38,7 +38,7 @@ He created a linear discriminant model which was used to tell the three species 
 
 1. Count: Shows the total quantity of data points in the dataset.
 2. Mean: Shows the average by the 4 different datasets.
-3. Std/standard deviation: Shows how much variation there is in the data set. In the below table the petal lenght has the most deviation between the 4 variables.
+3. Std/standard deviation: Shows how much variation there is in the data set. In the below table the petal length has the most deviation between the 4 variables.
 4. Min: Shows the lowest value in the dataset
 5. 25%: Shows the value that 25% of the data collected lie below that value
 6. 50%: Is where half the data lie below the median and half lie above the median
@@ -91,6 +91,16 @@ The below scatterplot analysis shows the comparison of two data sets Sepal Width
 This box plot also known as a box and whisker plot displays the summary of the four data sets of the Iris Classes. These box plots show the whiskers on the outside from Min to Max with the line in the centre as the median and the box from the first quartile to the third quartile. This visualization of data shows that the data for petal length has a larger range of measurements for the three Iris plants and the sepal width has a smaller range of measurements which tells us that there is little difference between the Sepal widths on the three Iris plants. The Sepal width is also displaying some outliers outside of the boxplot analysis which highlights that these values are distant from the rest of the data.
 
 ![](2022-04-29-19-19-43.png)
+
+
+1. Petal Length: This box plot displays the summary of the three Iris classes of flower for the Petal length. This visualization of data shows that the data for petal length for the setosa is smaller than the other two species of flower with the virginica being the largest. The serosa petal length shows very little difference in measurement. The serosa and versicolor are displaying some outliers outside of the boxplot analysis which highlights that these values are distant from the rest of the data.
+2. Petal Width: This box plot displays the summary of the three Iris classes of flower for the Petal width. This visualization of data shows that the data for petal width for the setosa is smaller than the other two species of flower with the virginica being the largest. The serosa petal length shows very little difference in measurement. The serosa is displaying some outliers outside of the boxplot analysis which highlights that these values are distant from the rest of the data.
+3. Sepal Length: This box plot displays the summary of the three Iris classes of flower for the Sepal length. This visualization of data shows that the data for Sepal length for all three plants have sizes similar in length with the virginica being the largest.The viginica sepal length is displaying some outliers outside of the boxplot analysis which highlights that these values are distant from the rest of the data.
+4. Sepal Width: This box plot displays the summary of the three Iris classes of flower for the Sepal width. This visualization of data shows that the data for Sepal width for all three plants have sizes similar in width with the setosa being the widest. The viginica sepal width is displaying some outliers outside of the boxplot analysis which highlights that these values are distant from the rest of the data.
+
+
+
+![](2022-04-29-20-31-35.png)
 
 
 # Reference:

@@ -142,3 +142,36 @@ plt.title("Box plot for all variables")
 
 # Displays chart 
 plt.show() 
+
+#Create box plot by Species by Variable
+plt.figure(figsize=(12,10))
+plt.subplot(2,2,2)
+sns.boxplot(x="species",y="sepal_length",data=data) 
+# Saves to a png
+# plt.savefig('Box Plot Sepal Length.png') 
+plt.show()
+
+
+#Create box plot by Species by Variable
+plt.figure(figsize=(12,10))
+plt.subplot(2,2,2)
+sns.boxplot(x="species",y="sepal_width",data=data) 
+# Saves to a png
+# plt.savefig('Box Plot Sepal Width.png') 
+plt.show()
+
+#Create box plot by Species by Variable
+plt.figure(figsize=(12,10))
+plt.subplot(2,2,2)
+sns.boxplot(x="species",y="petal_width",data=data) 
+# Saves to a png
+# plt.savefig('Box Plot Pepal Width.png') 
+plt.show()
+
+#Create box plot by Species by Variable
+plt.figure(figsize=(12,10))
+plt.subplot(2,2,2)
+sns.boxplot(x="species",y="petal_length",data=data) 
+# Saves to a png
+# plt.savefig('Box Plot Pepal Length.png') 
+plt.show()
