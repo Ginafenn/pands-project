@@ -30,29 +30,32 @@ data.hist(column='sepal_length',edgecolor='black')
 plt.title('Sepal Length') 
 plt.xlabel('Length (cm)') 
 plt.ylabel('Quantity') 
-plt.savefig('Sepal_Length.png')
-#plt.show()
+plt.show()
+#plt.savefig('Sepal_Length.png')
 
 #Create histogram for Sepal Width using black edging/creating a title/and labels for x and y axis
 data.hist(column='sepal_width',edgecolor='black') 
 plt.title('Sepal Width') 
 plt.xlabel('Length (cm)') 
 plt.ylabel('Quantity') 
-plt.savefig('Sepal_Width.png')
+plt.show()
+#plt.savefig('Sepal_Width.png')
 
 #Create histogram for Petal Length using black edging/creating a title/and labels for x and y axis
 data.hist(column='petal_length',edgecolor='black') 
 plt.title('Petal Length') 
 plt.xlabel('Length (cm)') 
 plt.ylabel('Quantity') 
-plt.savefig('Petal_Length.png')
+plt.show()
+#plt.savefig('Petal_Length.png')
 
 #Create histogram for Petal Width using black edging/creating a title/and labels for x and y axis
 data.hist(column='petal_width',edgecolor='black') 
 plt.title('Petal Width') 
 plt.xlabel('Length (cm)') 
 plt.ylabel('Quantity') 
-plt.savefig('Petal_Width.png')
+plt.show()
+#plt.savefig('Petal_Width.png')
 
 
 #Creating a scatter Plot
@@ -66,7 +69,8 @@ sns.FacetGrid(data, hue="species", height=6) \
 .map(plt.scatter, "sepal_length", "sepal_width" ) \
 .add_legend()  
 plt.title("Scatter Plot Sepal")  
-plt.show()   
+plt.show() 
+#plt.savefig('Scatter Plot Sepal.png')  
 
 #Creating a scatter Plot
 # Using a white background/Grid
@@ -78,8 +82,9 @@ sns.set_style("whitegrid")
 sns.FacetGrid(data, hue="species", height=6) \
 .map(plt.scatter, "petal_length", "petal_width" ) \
 .add_legend()  
-plt.title("Scatter Plot Petal")  
+plt.title("Scatter Plot ")  
 plt.show() 
+#plt.savefig('Scatter Plot Petal.png')  
 
 #Creating a scatter Plot
 # Using a white background/Grid
@@ -91,8 +96,9 @@ sns.set_style("whitegrid")
 sns.FacetGrid(data, hue="species", height=6) \
 .map(plt.scatter, "petal_length", "sepal_length" ) \
 .add_legend()  
-plt.title("Scatter length")  
-plt.show() 
+plt.title("Scatter Plot length")  
+plt.show()
+#plt.savefig('Scatter Plot Length.png')   
 
 #Creating a scatter Plot
 # Using a white background/Grid
@@ -106,3 +112,19 @@ sns.FacetGrid(data, hue="species", height=6) \
 .add_legend()  
 plt.title("Scatter Plot Width")  
 plt.show() 
+#plt.savefig('Scatter Plot Width.png') 
+
+#To create a variable that has more than one value
+box_data = data
+# Displys a white grid on the chart
+sns.set_style("whitegrid")
+#Plot the data using width of.4 and the marker size 5
+sns.boxplot(data = box_data,width=0.4,fliersize=5)
+# Display a title
+plt.title("Box plot for all variables") 
+
+#Saves to a png
+#plt.savefig('Box Plot all Variables.png') 
+
+# Displays chart 
+#plt.show() 
